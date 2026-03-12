@@ -16,6 +16,6 @@ public class CountryService {
     }
 
     public List<Country> findAllCountries() {
-        return countryRepository.findAll();
+        return countryRepository.findAllCountries();
     }
 }
